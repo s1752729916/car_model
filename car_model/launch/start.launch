@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find car_model)/launch/car_lidar.launch"/>
+  <include file="$(find  cartographer_turtlebot)/launch/terrain_vehicle_2d.launch"/>
+
+</launch>
